@@ -141,7 +141,7 @@ typedef struct LEDColor {
 #if HAS_WHITE_LED && DISABLED(RGB_LED)
   #define LEDColorWhite()         LEDColor(  0,   0,   0, 255)
 #else
-  #define LEDColorWhite()         LEDColor(255, 255, 255)
+  #define LEDColorWhite()         LEDColor(255, 175, 85)
 #endif
 
 class LEDLights {
