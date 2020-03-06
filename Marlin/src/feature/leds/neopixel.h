@@ -44,7 +44,7 @@
 #define NEOPIXEL_IS_RGBW !NEOPIXEL_IS_RGB
 
 #if NEOPIXEL_IS_RGB
-  #define NEO_WHITE 255, 255, 255, 0
+  #define NEO_WHITE 255, 175, 85, 0
 #else
   #define NEO_WHITE 0, 0, 0, 255
 #endif
